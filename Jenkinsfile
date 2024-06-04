@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
 
-                git 'https://github.com/Vijayb8095/jenkinsmultibranch.git'
+                 checkout scm
             }
         }
 
