@@ -12,13 +12,13 @@ pipeline {
         stage('Build') {
             steps {
 
-                sh 'javac Main.java'
+                sh 'javac Demo.java'
             }
         }
   stage('Run') {
             steps {
                 // Run the compiled Java program
-                sh 'java Main'
+                sh 'java Demo'
             }
         }
     }
